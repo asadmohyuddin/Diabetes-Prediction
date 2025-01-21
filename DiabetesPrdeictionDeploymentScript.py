@@ -54,6 +54,8 @@ def main():
     
     if st.button('Diabetes Test Result'):
         diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
+        
+        if(diagnosis == '0')
         st.balloons()
 
 
